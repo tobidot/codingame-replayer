@@ -1,0 +1,23 @@
+* {
+    background: violet;
+}
+
+#replay-assets {
+    display: none;
+    visibility: hidden;
+}
+
+#replay-target {
+    width: 800px;
+    height: 600px;
+    background: black;
+}
+
+#replay-source {
+    width: auto;
+    height: auto;
+    background: gray;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}

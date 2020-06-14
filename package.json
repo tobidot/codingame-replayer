@@ -1,0 +1,16 @@
+{
+  "name": "replayer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:example_game": "parcel build ./example_game/index.html",
+    "watch:example_game": "parcel ./example_game/index.html",
+    "watch": "yarn run watch:example_game"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.26.7",
+    "typescript": "^3.9.3"
+  }
+}
